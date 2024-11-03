@@ -1,0 +1,6 @@
+pip install Flask==2.2.2
+pip install Flask-Cors==5.0.0
+pip install langchain-community==0.3.1
+pip install langchain-openai==0.2.2
+pip install langchain-experimental==0.3.2
+pip install langdetect==1.0.9

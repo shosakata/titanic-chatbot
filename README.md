@@ -1,4 +1,4 @@
-# Titanic-chatbot
+## Titanic-chatbot
 In addition to regular chat functionality, this chatbot can handle questions related to CSV files and the Titanic dataset.
 
 ### Demo
@@ -20,7 +20,7 @@ The chatbot provides three main Question Answering functionalities:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-# Deployment
+## How to use
 
 ### Setup Environment (Optional)
 ```bash
@@ -72,7 +72,7 @@ data = pd.read_csv("Titanic-Dataset.csv")
 data.columns = [i.lower() for i in data.columns]
 data.to_sql('titanic', conn, if_exists='replace', index=False) 
 ```
-# Launching the Application
+### Launch the Application
 The following Python code will run app.py and launch the application
 ```
 python app.py

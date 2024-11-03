@@ -1,4 +1,4 @@
-## Sho's Chatbot
+## Titanic Chatbot (Sho's Chatbot)
 In addition to regular chat functionality, this chatbot can handle questions related to CSV files and the Titanic dataset.
 
 ### Demo

@@ -60,6 +60,7 @@ pip install SQLAlchemy
  
 Once you obtain the Titanic dataset from [Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset), use the following Python code to load it into PostgreSQL:
 ```python
+import pandas as pd
 from sqlalchemy import create_engine 
 
 database = "postgres"

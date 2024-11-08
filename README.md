@@ -50,6 +50,9 @@ ALTER USER postgres PASSWORD 'postgres';
 
 Install the following Python libraries to import the Titanic dataset into PostgreSQL:
 ```
+sudo apt-get update
+sudo apt-get install -y libpq-dev python3-dev
+
 pip install psycopg2
 pip install SQLAlchemy
 ```

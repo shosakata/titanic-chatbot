@@ -12,7 +12,7 @@ def get_csv_response(engine, new_text, csv_file, api_key):
 
     llm = ChatOpenAI(model=engine, temperature=0)
     agent_executor = create_csv_agent(llm, csv_file, verbose=True, allow_dangerous_code=True)
-    response  = agent_executor.run(new_text)
+    response  = agent_executor.invoke(new_text)["output"]
     final_response = translate_language(new_text, response, llm)
 
     return final_response
